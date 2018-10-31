@@ -188,11 +188,12 @@ nav {
 }
 
 .ads {
-	display: flex;
+	margin-top: 30px;
+	/*display: flex;
 	flex-direction: column;
 	max-width: 100%;
 	margin-left: 0;
-	margin-right: auto;
+	margin-right: auto;*/
 }
 
 .lost-add-container {
@@ -352,7 +353,24 @@ nav {
 
 .profile-text {
 	font-size: 18px;
-	line-height: 18px;
+	line-height: 22px;
+}
+
+
+/*Siit algavad toetamise ja vp kirjelduse stiilikirjeldus*/
+
+.content-text {
+	font-family: 'Krub', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-text p {
+	margin-bottom: 30px;
 }
 
 /*Siit algab jaluse stiilikirjeldus*/
